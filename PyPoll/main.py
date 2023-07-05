@@ -35,7 +35,7 @@ cand_names = list(cand_dict.keys())
 cand_votes = list(cand_dict.values())
 
 #divides the candidates votes by the total , multiplying that by 100 to get their percentage of the votes
-#then rounds this number to 3 decimal places
+#then rounds this number to 3 decimal places.
 charles_percent = round(((cand_votes[0]/total_votes)*100), 3)
 diana_percent = round(((cand_votes[1]/total_votes)*100), 3)
 raymon_percent = round(((cand_votes[2]/total_votes)*100), 3)
