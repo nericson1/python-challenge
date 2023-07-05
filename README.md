@@ -1,6 +1,6 @@
 # python-challenge
 
-## .shift()
+## DataFrame Column Shift
 I looked up how to realign rows of a column in a dataframe as I needed the new "Difference" column in the PyBank dataframe to shift up in order to compare values with those of adjacent columns. Line 14 in PyBank/main.py was borrowed from the Stack Overflow link below.
 
 link: https://stackoverflow.com/questions/46965192/python-how-can-i-find-difference-between-two-rows-of-same-column-using-loop-in
